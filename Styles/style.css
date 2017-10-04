@@ -1,0 +1,67 @@
+/*Style.css */
+
+body {
+    
+    Background-color: #413F54;
+    font-family: sans-serif;
+     
+}
+
+h1 {
+    
+    text-align: center;
+            
+}
+        
+h2 {
+
+    text-align: center;
+    
+}
+
+table, th, td {
+
+    text-align: center;
+    border: 2px solid black;
+    
+}
+
+th {
+    
+    height: 100px;
+}
+
+table {
+    
+    width:100%;
+}
+
+a {
+    
+    color: black;
+    padding: 20px 30px;
+    text-align: center;
+    display: inline-block;
+    text-decoration:none;
+    
+}
+
+a:hover {
+    
+    color:aliceblue;
+    background-color: black;
+    text-decoration: underline;
+}
+
+ul {
+    
+    list-style-type: none;
+    margin: 10px;
+    padding: 25px;
+    Background-color: 
+}
+
+li {
+    
+    display: inline;
+}
