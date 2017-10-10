@@ -1,7 +1,7 @@
 body {
     
     Background-color: #413F54;
-    font-family: sans-serif;
+    font-family: sans-serif, serif;
      
 }
 
@@ -14,6 +14,7 @@ h1 {
 h2 {
 
     text-align: center;
+    font-size:30px;
     
 }
 
@@ -41,6 +42,7 @@ a {
     text-align: center;
     display: inline-block;
     text-decoration:none;
+    font-size: 25px;
     
 }
 
@@ -56,10 +58,26 @@ ul {
     list-style-type: none;
     margin: 10px;
     padding: 25px;
-    Background-color: 
+    Background-color: ;
+    Text-align:center;
+    
 }
 
 li {
     
     display: inline;
+}
+
+.homeIntro {
+    
+    text-align: center;
+    font-size: 20px;
+    padding: 50px; 
+}
+
+.contact {
+    
+    text-align: Center;
+    padding:25px;
+    font-size: 20px;
 }
