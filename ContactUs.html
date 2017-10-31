@@ -14,6 +14,7 @@
     
     <link rel = "stylesheet" type = "text/css" href = "style.css">
     
+    
 </head>
     
     <body>
@@ -37,7 +38,8 @@
             
         <br><br>
             
-        <form>
+            
+        <form name="contactForm" action="/action_page.php" onsubmit="return validateForm()" method="GET">
             First Name:
             <input type="text" name="firstname"> <br><br>
             Last Name:
@@ -49,6 +51,7 @@
             <input type="radio" name="Response" value="orderStatus"> Order Status Update <br><br>
         </form>
         
+            
         <textarea name="Message" cols="35" rows="12.5"> Comments or Concerns...</textarea><br>
         
         
@@ -57,7 +60,13 @@
             <input type="Reset">
         </form>
         
+            <footer id="date"></footer>
         </div>
         
     </body>
+    
+
+   <script src= "Script.js"></script> 
+    
+</html>
         
